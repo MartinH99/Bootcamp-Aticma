@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+
+#divAlign {
+    padding-left: 75%;
+}
+
+form {
+    max-width: 500px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px 10px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background-color: gray;
+}
+
+.contacto-body {
+    background-image: url(img/AutoMarketFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 250px;
+}
+
+.in-flex:first-child {
+    flex: 2;
+    padding: 25px;
+    background-color: #f4f7f8;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.in-flex div {
+    padding: 25px;
+    background-color: #f4f7f8;
+    margin: 20px;
+}
+
+footer {
+    text-align: left;
+    background-color: gray;
+    color: black;
+    width: 100%;
+    clear: both;
+    position: relative;
+    margin-top: 50px;
+}
+
+.map-container-6 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-6 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

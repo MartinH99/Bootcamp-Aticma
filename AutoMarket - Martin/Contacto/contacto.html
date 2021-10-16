@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Automarket</title>
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="#" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap4/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../plugins/sweetAlert2/sweetalert2.min.css">
+
+    <link rel="stylesheet" href="../plugins/animate.css/animate.css">
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body class="contacto-body">
+
+    <header>
+        <div class="container-fluid bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="../index.html">AutoMarket</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container rounded p-2  mt-2 bg-dark text-white">
+        <!--Section: Contacto   ..................................................................  -->
+        <section class="section pb-2 pl-5 pr-5">
+
+            <h2 class="section-heading h1 ">CONTACTO</h2>
+
+            <div class="row ">
+
+                <div class="col-lg-5 mb-2">
+
+                    <form name="formulario_registro" method="post" onsubmit="return tirarMensaje()" id="form" class=" border border-light  bg-dark text-light justify-content-center col-md">
+                        <h3> Ingrese sus datos personales para ser contactado</h3>
+
+                        <div>
+                            <div class="form-row">
+
+                                <div class="form-group col-md">
+                                    <label for="inputNombre">Nombre</label>
+                                    <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputApellido">Apellido</label>
+                                    <input type="text" class="form-control" id="inputApellido" placeholder="Apellido" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="inputProvincia">Provincia</label>
+                                    <select id="inputProvincia" class="form-control" required>
+                                        <option value="" disabled selected>Seleccionar Provincia</option>
+                                        <option value="bsas">Buenos Aires</option>
+                                        <option value="caba">Capital Federal</option>
+                                        <option value="cat">Catamarca</option>
+                                        <option value="cha">Chaco</option>
+                                        <option value="chu">Chubut</option>
+                                        <option value="cb">Cordoba</option>
+                                        <option value="cor">Corrientes</option>
+                                        <option value="enr">Entre Rios</option>
+                                        <option value="for">Formosa</option>
+                                        <option value="juj">Jujuy</option>
+                                        <option value="lap">La Pampa</option>
+                                        <option value="lar">La Rioja</option>
+                                        <option value="men">Mendoza</option>
+                                        <option value="mis">Misiones</option>
+                                        <option value="neu">Neuquén</option>
+                                        <option value="rio">Rio Negro</option>
+                                        <option value="sat">Salta</option>
+                                        <option value="saj">San Juan</option>
+                                        <option value="sal">San Luis</option>
+                                        <option value="sac">Santa Cruz</option>
+                                        <option value="saf">Santa Fe</option>
+                                        <option value="sde">Santiago del Estero</option>
+                                        <option value="tdf">Tierra del Fuego</option>
+                                        <option value="tuc">Tucumán</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+
+                            <div class="form-group col-md-12">
+                                <label for="Textarea1">Texto de contacto</label>
+                                <textarea class="form-control" id="Textarea1" rows="3" required></textarea>
+                            </div>
+
+                        </div>
+
+                        <br>
+                        <div class="d-flex justify-content-end">
+                            <input id="btn1" type="reset" class="btn btn-danger mr-2 p-2" name="reset" value="Restablecer">
+                            <input onclick="obtenerDatos()" type="submit" class="btn btn-success mr-2 p-2" name="value" value="Enviar">
+
+                        </div>
+
+
+                        <br>
+                        <br>
+                    </form>
+
+
+
+
+                </div>
+
+                <div class="col-lg-7">
+
+                    <!--Google map-->
+                    <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+                        <iframe src="https://maps.google.com/maps?q=Colabianchi%20560%20Villa%20Mar%C3%ADa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+
+                    <br>
+                    <!--Datos de contacto -->
+                    <div class="row text-center mx-auto ">
+                        <div class="col-md-4 border-0  ">
+                            <img style="width: 50%;" src="../img/indexFooterLocation.png" alt="..." class="rounded-circle">
+                            <p>Colabianchi 560</p>
+                            <p>Villa María, Córdoba</p>
+                        </div>
+
+                        <div class="col-md-4  border-0 ">
+                            <img style="width: 50%;" src="../img/indexFooterPhone.png" alt="..." class="rounded-circle">
+                            <p>Tel: +54 9 3534142050</p>
+                            <p>Lun - Vie 9:00-18:00</p>
+                        </div>
+
+                        <div class="col-md-4  border-0 ">
+                            <img style="width: 50%;" src="../img/indexFooterMail.png" alt="..." class="rounded-circle">
+
+                            <p>info@automarket.com</p>
+                            <p>ventas@automarket.com</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 text-lg-center">Copyright © MH 2021</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../jquery/jquery-3.3.1.min.js"></script>
+    <script src="../popper/popper.min.js"></script>
+    <script src="../bootstrap4/js/bootstrap.min.js"></script>
+
+    <!--    Plugin sweet Alert 2  -->
+    <script src="../plugins/sweetAlert2/sweetalert2.all.min.js"></script>
+
+    <script src="../codigo.js"></script>
+
+</body>
+
+</html>
