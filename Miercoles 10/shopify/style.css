@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.master{
+    height:100vh;
+    height: 100vh;
+    background-color:hsl(249deg 15% 9%);  
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+}
+
+.cont1{
+    box-sizing: border-box;
+    background-color:hsl(249deg 15% 9%);  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6rem;
+    padding-right: 8rem;
+}
+
+.today{
+    color:hsl(70deg 89% 55%);
+    font-size: 1.5rem;
+}
+.flex{
+    color: white;
+    font-size: 6rem;
+}
+.shop{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.talk{
+    color: black;
+    background-color:hsl(70deg 89% 55%);
+    width: 9rem;
+    height: 3rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+
+}
+/*    tincho  */
+.cont2{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+
+    background-color:hsl(249deg 15% 9%);
+}
+
+.video {
+    
+    display: initial;
+    justify-content: center;
+    flex-direction: column;
+    margin: 150px 0 0 100px;
+    
+}
+
+.icon {
+    margin-left: 45rem;
+
+
+    border-radius: 15px;
+    
+    
+}
+.icon img{
+    border-radius: 15px;
+}
+
+/*  juan */
+
+.dropdown-btn{
+    background-color:rgba(0, 0, 0, 0.3); 
+    color:white;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropdown{
+
+    position:relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position:absolute;
+    
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+
+}
+.dropdown:hover .dropdown-btn{
+    background-color: #333;
+}
+
+.dropdown:hover .dropdown-content{
+display: block;
+}
+.img{
+    background-image: url(/shopify_plus.png);
+    width: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+
+}
+
+.cont3{
+
+    display: flex;
+    background-color:hsl(249deg 15% 9%);
+
+}
+
+.box2{
+    margin-left: 50rem;
+    float: right;
+    display: flex;
+
+}
+.dropdown-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+#lets{
+    color: hsl(70deg 89% 55%);
+}
