@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'StarBucks-regular';
+    src: url('./fonts/f1.woff');
+}
+
+@font-face {
+    font-family: 'StarBucks-bold';
+    src: url('./fonts/f2.woff');
+}
+
+@font-face {
+    font-family: 'StarBucks-extrabold';
+    src: url('./fonts/f3.woff');
+}
+
+.getting {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.getting h2 {
+    font-size: 2rem;
+}
+
+.earn {
+    margin-top: 1.3rem;
+    font-size: 1.2rem;
+}
+
+.foot {
+    margin-top: 2rem;
+    display: flex;
+    padding: 0 9rem 0 9rem;
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 2rem 0 2rem;
+}
+
+.colum h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.text {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.colum a {
+    color: green;
+}
+
+.icono {
+    color: #1e3932;
+    font-size: 2rem;
+    border: 2px solid #1e3932;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    align-self: center;
+}
+
+
+/* tincho*/
+
+.container {
+    display: flex;
+    background-image: url(img/Estrella_Starbucks.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    font-size: x-large;
+    background-color: #d4e9e2;
+}
+
+.container h2 {
+    width: 16.25rem;
+}
+
+.left>* {
+    margin: 1rem;
+}
+
+.left button {
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    background-color: #008248;
+    border-color: #008248;
+}
+
+.left {
+    margin: 10rem 0 5rem 5rem;
+}
+
+
+/* navvv */
+
+.nav {
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}
+
+.navl {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navl div {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.navr {
+    display: flex;
+}
+
+.navl img {
+    background-size: contain;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 2rem 2rem 2rem 4rem;
+}
+
+.find {
+    font-size: 1.5rem;
+}
+
+.navr>* {
+    margin: 2rem 1rem 2rem 2rem;
+}
+
+.navr {
+    margin-right: 3rem;
+}
+
+.join {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    height: 2.5rem;
+    width: 6rem;
+    font-size: medium;
+}
+
+.sign {
+    background-color: white;
+    border: 1px solid black;
+    font-size: large;
+    border-radius: 15px;
+    height: 2.5rem;
+    width: 6rem;
+}
+
+.rewards {
+    height: 2.5rem;
+    border-bottom: 8px solid #087149;
+}
+
+.barra {
+    height: 2.8rem;
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 3rem;
+    background-color: #1e3932;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 1000;
+    top: 6rem;
+    padding-top: 1rem;
+}
